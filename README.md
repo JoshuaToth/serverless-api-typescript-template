@@ -1,5 +1,5 @@
-# Serverless Typescript and Jest Template
-A Serverless template using Typescript and Jest.
+# Serverless API: Typescript and Jest Template
+A Serverless API template using Typescript and Jest.
 
 This setup uses AWS as the provider. 
 
