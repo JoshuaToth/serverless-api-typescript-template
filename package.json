@@ -1,0 +1,35 @@
+{
+  "name": "severless-template",
+  "version": "0.0.1",
+  "description": "A template for Serverless using Typescript",
+  "main": "functions/healthcheck.js",
+  "scripts": {
+    "test": "jest",
+    "remove": "sls remove",
+    "deploy": "sls deploy",
+    "deploy:prod": "sls deploy --stage production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+JoshuaToth/serverless-typescript-template.git"
+  },
+  "author": "Joshua Toth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshuaToth/serverless-typescript-template/issues"
+  },
+  "homepage": "https://github.com/JoshuaToth/serverless-typescript-template#readme",
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.0",
+    "jest": "^24.8.0",
+    "serverless-plugin-typescript": "^1.1.7",
+    "serverless-stack-output": "^0.2.3",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0"
+  }
+}
